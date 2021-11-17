@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html lang="en">
+<head>
+    <title>Hello Spring MVC</title>
+</head>
+
+<body>
+<h2 style="text-align:center">  <span th:text="${message}"></span> </h2>
+
+
+<p style="text-align:center">
+    <img alt="Обработанное изображение" th:src="'data:image/png;base64,' + ${base64NewImage}"/>
+</p>
+
+</body>
+</html>
